@@ -1,0 +1,17 @@
+# package directories
+node_modules
+package-lock.json
+
+# coverage directories
+coverage
+
+# visual studio code directories
+.vscode
+
+# .zip files
+*.zip
+
+# docs directories
+docs
+
+.scannerwork

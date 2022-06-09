@@ -1,0 +1,18 @@
+extends:
+  - airbnb-base
+plugins:
+  - import
+  - jest
+rules:
+  comma-dangle: ["error", {"functions": "never"}]
+  max-statements-per-line: ["error", { "max": 1 }]
+  max-len: ["error", { "code": 180 }]
+  no-mixed-spaces-and-tabs: ["error", "smart-tabs"]
+  no-unused-vars: "error"
+  linebreak-style: ["error", "windows"]
+  no-console: ["error", { allow: ["info"] }]
+globals:
+  __: true
+env:
+  "jest/globals": true
+
